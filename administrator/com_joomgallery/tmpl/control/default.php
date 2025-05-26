@@ -34,7 +34,7 @@ if(strpos(strtolower(Factory::getApplication()->getLanguage()->getTag()), 'de') 
 <div class="d-flex flex-row">
   <div class="flex-fill">
     <div id="j-main-container" class="j-main-container">
-      <div class"jg-control-head">
+      <div class="jg-control-head">
         <?php // echo 'Kopfbereich für wichtige Meldungen.'; ?>
       </div>
       <div class="card jg-controlpanel-content">
@@ -113,7 +113,7 @@ if(strpos(strtolower(Factory::getApplication()->getLanguage()->getTag()), 'de') 
       <hr>
 
       <?php // Display Footer ?>
-      <div class"jg-control-footer">
+      <div class="jg-control-footer">
         <?php
         // Display copyright ?>
         <div class="row">

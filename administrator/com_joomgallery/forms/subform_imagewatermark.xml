@@ -33,10 +33,11 @@
            type="number"
            groupByFieldset="false"
            default="15"
-           filter="int"
            min="1"
            max="100"
            step="1"
+           validate="number"
+           filter="integer"
            showon="jg_watermarkzoom:1,2"
            label="COM_JOOMGALLERY_CONFIG_WATERMARK_SIZE"
            description="COM_JOOMGALLERY_CONFIG_WATERMARK_SIZE_LONG" />
@@ -45,10 +46,11 @@
            type="number"
            groupByFieldset="false"
            default="80"
-           filter="int"
            min="1"
            max="100"
            step="1"
+           validate="number"
+           filter="integer"
            label="COM_JOOMGALLERY_OPACITY"
            description="COM_JOOMGALLERY_CONFIG_WATERMARK_OPACITY_LONG" />
   </fieldset>

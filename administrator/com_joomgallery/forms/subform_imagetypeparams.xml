@@ -27,20 +27,22 @@
     <field name="jg_imgtypewidth"
            type="number"
            groupByFieldset="false"
-           filter="int"
            min=""
            max=""
            step="1"
+           validate="number"
+           filter="integer"
            label="COM_JOOMGALLERY_IMAGE_WIDTH"
            description="COM_JOOMGALLERY_CONFIG_RESIZE_BY_WIDTH_LONG" />
 
     <field name="jg_imgtypeheight"
            type="number"
            groupByFieldset="false"
-           filter="int"
            min=""
            max=""
            step="1"
+           validate="number"
+           filter="integer"
            label="COM_JOOMGALLERY_IMAGE_HEIGHT"
            description="COM_JOOMGALLERY_CONFIG_RESIZE_BY_HEIGHT_LONG" />
 
@@ -94,10 +96,11 @@
            type="number"
            groupByFieldset="false"
            default="100"
-           filter="int"
            min="1"
            max="100"
            step="1"
+           validate="number"
+           filter="integer"
            label="COM_JOOMGALLERY_CONFIG_IMAGE_QUALITY"
            description="COM_JOOMGALLERY_CONFIG_IMAGE_QUALITY_LONG" />
 

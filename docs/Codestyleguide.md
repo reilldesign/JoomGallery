@@ -1,5 +1,6 @@
 # Code Style Guide für die JoomGallery 4.x by JoomGalleryfriends
 Letzte Änderungen: 24.02.2025
+[Change to the english version](Codestyleguide_en.md)
 
 ## Allgemeines
 
